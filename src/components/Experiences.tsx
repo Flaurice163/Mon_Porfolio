@@ -10,9 +10,9 @@ import java from '../assets/techno/java.png'
 import php from '../assets/techno/php.png'
 import django from '../assets/techno/django.png'
 
-import comp1 from '../assets/company/comp1.png'
-import comp2 from '../assets/company/comp2.png'
-import comp3 from '../assets/company/comp3.png'
+import comp1 from '../assets/company/comp1.jpg'
+import comp2 from '../assets/company/comp2.jpg'
+import comp3 from '../assets/company/comp3.jpg'
 
 const skills= [
     { id:1, name:"htmlcss", image: htmlcss },
@@ -29,12 +29,12 @@ const skills= [
 const experiences=[
     {
         id:1,
-        role:"software Engineer",
-        company:"Google",
-        periode:"Octobre 2025 - present",
+        role:"Developpeur web",
+        company:"Archystore",
+        periode:"Octobre 2025 - Janvier 2026",
         description:[
-            "Developpemnet pour des nouvelles fonctionnalites de googles maps",
-            "Optimisations des performance de l'applications",
+            "Developpemnet pour des nouvelles fonctionnalites de leur site web",
+            "Optimisations des performance de l'applications web",
         ],
         image:comp3,
     },
@@ -42,10 +42,10 @@ const experiences=[
      {
         id:2,
         role:"Fullstack developpeur",
-        company:"Meta",
+        company:"Hotel-La-Fleuri",
         periode:"Mars 2024 - Sep 2025",
         description:[
-            "Creation d'une plateforme interne de colaborations pour les equipes.",
+            "Creation d'une site web pour les reservations chambres/Tables via Whatsapp",
             "Mise en placed'une architecture optimisee",
         ],
         image:comp1,
@@ -54,11 +54,11 @@ const experiences=[
      {
         id:3,
         role:"Frontend Developpeur",
-        company:"Amazone",
+        company:"BLITZ FOOD",
         periode:"Octobre 2023 - Janv 2024",
         description:[
-            "Developpemnet d'une interface utilisateurs pour amazon web services",
-            "Implementation des testes unitaires,... ",
+            "Developpemnet d'une site vitrine web services",
+            "Implementation des fonctionnalite pour commander via whatsapp,... ",
         ],
         image:comp2,
     },
