@@ -11,7 +11,7 @@ const projects=[
     {
         id:1,
         title:"Projet de Gestion Financiere",
-        description:"Lorem hddd suud dusud duud syye rueudvbdd ueue djuwu due",
+        description:"Ce projet est une application web de gestion financiere. Dans cette application, on peut faire de CRUD des ratios, et on peut visaliser les resultats avec les donnes des derniers annees saisi.",
         technologies:['Php', 'Html','Css'],
         demoLink:'#',
         repoLink:'#',

@@ -1,4 +1,5 @@
 import { Cuboid } from "lucide-react"
+import logo from '../assets/logo.png'
 
 
 const Navbar = () => {
@@ -20,6 +21,14 @@ const Navbar = () => {
     </li>
     <li>
         <a href="#Projects" className="btn btn-sm btn-ghost">Mes Projet</a>
+    </li>
+</ul>
+
+<ul className="hidden md:flex space-x-4">
+    <li>
+        <a href="#">
+            <img src={logo} alt="" className="w-20 h-20 p-0.5 rounded-full border-2 border-success" />
+        </a>
     </li>
 </ul>
 
