@@ -42,10 +42,10 @@ const experiences=[
      {
         id:2,
         role:"Fullstack developpeur",
-        company:"Hotel-La-Fleuri",
+        company:"Gestion des stock alimantaire d'une association",
         periode:"Mars 2024 - Sep 2025",
         description:[
-            "Creation d'une site web pour les reservations chambres/Tables via Whatsapp",
+            "Creation d'une site web d'une association pour les gestion des stock alimentaire",
             "Mise en placed'une architecture optimisee",
         ],
         image:comp1,
