@@ -4,6 +4,7 @@ import img1 from '../assets/projects/img1.jpg'
 import img2 from '../assets/projects/img2.jpeg'
 import img3 from '../assets/projects/img3.jpeg'
 import img4 from '../assets/projects/img4.png'
+import img5 from '../assets/projects/img5.jpg'
 import { Github, Video } from "lucide-react"
 
 
@@ -22,7 +23,7 @@ const projects=[
         id:2,
         title:"Gestionnaires des employes",
         description:"Ce projet est un gestion des employes developpe pour faire des CRUD des employes dans un entreprise, developpe en python avec de framework 'Django'",
-        technologies:['HTML', 'Django','TailwindCss'],
+        technologies:['HTML', 'Django','TailwindCss', 'Daisyui'],
         demoLink:'#',
         repoLink:'#',
         image:img2,
@@ -40,13 +41,23 @@ const projects=[
 
     {
         id:4,
-        title:"Portfolio interactif",
-        description:"Ce projet est un portfolio, ultra modern et interactif developpe en react+vite avec de style en framework Tailwindcss et Daisyui",
-        technologies:['React', 'JavaScript','TailwindCss'],
+        title:"Siteweb de Blitzfood",
+        description:"Ce projet est un siteweb de BlitzFood, ultra modern et interactif developpe en Html+Css animee avec de javascript.",
+        technologies:['Html', 'Css','Javascript'],
         demoLink:'#',
         repoLink:'#',
         image:img4,
     },
+{
+        id:5,
+        title:"BALISHOP Analakely",
+        description:"Contenu visuel publicitaire creee via Canva et Photshop.",
+        technologies:['Canva', 'Photoshop'],
+        demoLink:'#',
+        repoLink:'#',
+        image:img5,
+    },
+    
 ]
 
 

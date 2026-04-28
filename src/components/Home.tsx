@@ -13,8 +13,10 @@ mt-4 md:mt-0"
           <span className="text-warning"> FFlaur</span>
         </h1>
         <p className="my-4 text-md text-center md:text-left">
-          Je suis un developpeur fullstack <br />
-          avec 1 ans d'experience, utilisant Reactjs <br /> et Django.
+          Je suis un développeur fullstack et Créateur visuels/Graphiste <br />
+          avec +2 ans d'expérience, utilisant Reactjs <br /> et Django. <br />
+          Passionnée par UI/UX et la créativité visuel. <br />
+          J'ai maitrise l'Outil de design comme Photoshop ou Canva.        
           Contactez-moi si vous avez besoins de mes services.
         </p>
         <a href="https://wa.me/261343461787?text=Bonjour%2C%20je%20veux%20une%20site%20vitrine%20pour%20representer%20mon%20activite%20en%20ligne"  target="_blank" rel="noopener noreferrer" className="btn btn-warning md:w-fit">

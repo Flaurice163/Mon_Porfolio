@@ -13,7 +13,7 @@ const Footer = () => {
     <p className="font-bold">
      FF<span className="text-warning">LAUR</span>
     </p>
-    <p>Copyright © {new Date().getFullYear()} - Tous les droits sont reservee</p>
+    <p>Copyright © {new Date().getFullYear()} - Tous les droits sont réservée</p>
   </aside>
   <nav>
     <div className="grid grid-flow-col gap-4">

@@ -3,11 +3,11 @@ import Title from "./Title";
 import htmlcss from '../assets/techno/htmlcss.jpeg'
 import js from '../assets/techno/js.png'
 import react from '../assets/techno/react.png'
-import vuejs from '../assets/techno/vuejs.png'
+import phts from '../assets/techno/phts.png'
 // import nextjs from '../assets/techno/nextjs.png'
 import nodejs from '../assets/techno/nodejs.png'
 import java from '../assets/techno/java.png'
-import php from '../assets/techno/php.png'
+import canva from '../assets/techno/canva.jpg'
 import django from '../assets/techno/django.png'
 
 import comp1 from '../assets/company/comp1.jpg'
@@ -18,22 +18,22 @@ const skills= [
     { id:1, name:"htmlcss", image: htmlcss },
     { id:2, name:"js", image: js },
     { id:3, name:"react", image: react },
-    { id:4, name:"vuejs", image: vuejs },
+    { id:4, name:"photoshop", image: phts },
     // { id:5, name:"nextjs", image: nextjs },
     { id:6, name:"nodejs", image: nodejs },
     { id:7, name:"java", image: java },
-    { id:8, name:"php", image: php },
+    { id:8, name:"Canva", image: canva },
     { id:9, name:"django", image: django },
 ];
 
 const experiences=[
     {
         id:1,
-        role:"Developpeur web",
+        role:"Développeur web",
         company:"Archystore",
-        periode:"Octobre 2025 - Janvier 2026",
+        periode:"Septembre 2025 - Décembre 2025",
         description:[
-            "Developpemnet pour des nouvelles fonctionnalites de leur site web",
+            "Développemnet pour des nouvelles fonctionnalitées de leur site web",
             "Optimisations des performance de l'applications web",
         ],
         image:comp3,
@@ -41,24 +41,24 @@ const experiences=[
 
      {
         id:2,
-        role:"Fullstack developpeur",
-        company:"Gestion des stock alimantaire d'une association",
-        periode:"Mars 2024 - Sep 2025",
+        role:"Créateur de contenue et graphiste",
+        company:"BALISHOP Analakely",
+        periode:"Janvier 2026 - maintenant",
         description:[
-            "Creation d'une site web d'une association pour les gestion des stock alimentaire",
-            "Mise en placed'une architecture optimisee",
+            "Réalisation de visuels publicitaires via Photoshop",
+            "Création de contenue avec Canva",
         ],
         image:comp1,
     },
 
      {
         id:3,
-        role:"Frontend Developpeur",
+        role:"Frontend Développeur",
         company:"BLITZ FOOD",
-        periode:"Octobre 2023 - Janv 2024",
+        periode:"Mars 2025 - Septembre 2025",
         description:[
-            "Developpemnet d'une site vitrine web services",
-            "Implementation des fonctionnalite pour commander via whatsapp,... ",
+            "Développemnet d'une site vitrine web services",
+            "Implémentation des fonctionnalité pour commander via whatsapp,... ",
         ],
         image:comp2,
     },
