@@ -41,9 +41,9 @@ const projects=[
 
     {
         id:4,
-        title:"Siteweb de Blitzfood",
-        description:"Ce projet est un siteweb de BlitzFood, ultra modern et interactif developpe en Html+Css animee avec de javascript.",
-        technologies:['Html', 'Css','Javascript'],
+        title:"Gestion des rendez-vous",
+        description:"Ce projet est un app web de Gestion de projet.",
+        technologies:['Reactjs', 'Django','Tailwindcss'],
         demoLink:'#',
         repoLink:'#',
         image:img4,
