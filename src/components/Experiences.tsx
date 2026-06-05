@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import Title from "./Title";
 
 import htmlcss from '../assets/techno/htmlcss.jpeg'
@@ -77,10 +78,14 @@ const Experiences = () => {
                 skills.map((skill)=>(
                     <div key={skill.id} className="flex justify-center items-center flex-col">
                     
-                    <div className="w-24 h-24 p-2 rounded-full border-2 border-warning">
+                    <motion.div
+                      className="w-24 h-24 p-2 rounded-full border-2 border-warning"
+                      animate={{ rotate: [0, 360] }}
+                      transition={{ duration: 9, ease: "easeInOut", repeat: Infinity }}
+                    >
                         <img src={skill.image} alt={skill.name}  className="object-cover rounded-full h-full w-full"/>
 
-                    </div>
+                    </motion.div>
                     <span className="mt-2 text-sm">
                         {skill.name}
                     </span>
