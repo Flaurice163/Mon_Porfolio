@@ -53,12 +53,12 @@ const experiences=[
 
      {
         id:3,
-        role:"Frontend Développeur",
-        company:"BLITZ FOOD",
+        role:"Développeur app web",
+        company:"Bookin'Pro",
         periode:"Mars 2025 - Septembre 2025",
         description:[
-            "Développemnet d'une site vitrine web services",
-            "Implémentation des fonctionnalité pour commander via whatsapp,... ",
+            "Développemnet d'une application web services",
+            "Implémentation des fonctionnalité pour notifier via whatsapp,... ",
         ],
         image:comp2,
     },
