@@ -45,14 +45,27 @@ const cardVariants = {
     opacity: 1,
     y: [0, -8, 0],
     transition: {
-      duration: 3,
+      duration: 2,
       ease: "easeInOut" as const,
       repeat: Infinity,
       repeatType: "mirror" as const,
-      repeatDelay: 6,
-      delay: custom * 3,
+      repeatDelay: 2.75,
+      delay: custom * 1.4,
     },
   }),
+};
+
+const imageVariants = {
+  visible: {
+    rotateY: [0, 180, 360],
+    opacity: 1,
+    transition: {
+      duration: 8,
+      ease: "easeInOut" as const,
+      repeat: Infinity,
+      repeatType: "loop" as const,
+    },
+  },
 };
 
 const about = () => {
@@ -66,9 +79,15 @@ const about = () => {
         whileInView="visible"
         viewport={{ once: false, amount: 0.3 }}
       >
-        <div className="hidden md:block">
-          <img src={monimg} alt="Portrait" className="w-96 object-cover rounded-xl" />
-        </div>
+        <motion.div
+          className="hidden md:block"
+          variants={imageVariants}
+          animate="visible"
+          viewport={{ once: false, amount: 0.3 }}
+          style={{ perspective: 1000 }}
+        >
+          <motion.img src={monimg} alt="Portrait" className="w-96 object-cover rounded-xl" />
+        </motion.div>
 
         <motion.div className="md:ml-4 space-y-4">
           {aboutSections.map((Section, index) => (
