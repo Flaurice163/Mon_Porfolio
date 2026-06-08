@@ -154,6 +154,67 @@ export const copy = {
         { name: 'BrandLab', description: 'Positionnement et design de marque pour entreprises créatives.' },
       ],
     },
+    skills: {
+      title: 'Compétences',
+      description: 'Maîtrise des technologies et outils modernes pour créer des solutions web performantes.',
+      items: [
+        { name: 'React & TypeScript', level: 75 },
+        { name: 'Tailwind CSS', level: 80 },
+        { name: 'Django & Python', level: 74 },
+        { name: 'SQL & Bases de données', level: 80 },
+        { name: 'UI/UX Design', level: 73 },
+        { name: 'Figma & Photoshop', level: 82 },
+        { name: 'Git & DevOps', level: 70 },
+        { name: 'API REST & GraphQL', level: 68 },
+      ],
+    },
+    achievements: {
+      title: 'Réalisations',
+      description: 'Des chiffres qui reflètent mon engagement et ma capacité à livrer des résultats.',
+      stats: [
+        { number: '15+', label: 'Projets complétés', icon: '📊' },
+        { number: '13+', label: 'Clients satisfaits', icon: '😊' },
+        { number: '3+', label: "Années d'expérience", icon: '⭐' },
+        { number: '+28%', label: 'Conversion moyenne', icon: '📈' },
+      ],
+    },
+    certifications: {
+      title: 'Certifications & Formation',
+      description: 'Formations continues et certifications professionnelles.',
+      items: [
+        { title: 'React Developer Certified', issuer: 'Meta', year: '2023' },
+        { title: 'Full Stack Web Development', issuer: 'Udemy', year: '2022' },
+        { title: 'UI/UX Design Masterclass', issuer: 'Interaction Design', year: '2022' },
+        { title: 'Django Advanced', issuer: 'Real Python', year: '2021' },
+      ],
+    },
+    techStack: {
+      title: 'Stack Technique',
+      description: "Les technologies que j'utilise pour construire des solutions modernes et scalables.",
+      categories: [
+        {
+          name: 'Frontend',
+          techs: ['React', 'TypeScript', 'Tailwind CSS', 'Vite', 'JavaScript'],
+        },
+        {
+          name: 'Backend',
+          techs: ['Django', 'Python', 'PostgreSQL', 'REST API', 'MySQL'],
+        },
+        {
+          name: 'Design & Outils',
+          techs: ['Figma', 'Photoshop', 'Canva', 'Git', 'GitHub'],
+        },
+        {
+          name: 'DevOps & Cloud',
+          techs: ['Docker', 'AWS', 'CI/CD', 'Linux', 'Nginx'],
+        },
+      ],
+    },
+    cta: {
+      title: 'Prêt à lancer votre projet ?',
+      description: "Transformez vos idées en réalité. Contactez-moi aujourd'hui pour une première consultation gratuite et découvrez comment je peux accélérer votre croissance.",
+      button: 'Commençons ensemble',
+    },
     contact: {
       title: 'Services & Contact',
       description: 'Découvrez mes offres de services web et design. Contactez-moi pour un projet personnalisé et une solution professionnelle.',
@@ -319,6 +380,67 @@ export const copy = {
         { name: 'Startup Lab', description: 'Product support for an innovative SaaS platform.' },
         { name: 'BrandLab', description: 'Brand positioning and design for creative businesses.' },
       ],
+    },
+    skills: {
+      title: 'Skills',
+      description: 'Mastery of modern technologies and tools to create high-performance web solutions.',
+      items: [
+        { name: 'React & TypeScript', level: 95 },
+        { name: 'Tailwind CSS', level: 90 },
+        { name: 'Django & Python', level: 88 },
+        { name: 'SQL & Databases', level: 85 },
+        { name: 'UI/UX Design', level: 92 },
+        { name: 'Figma & Photoshop', level: 90 },
+        { name: 'Git & DevOps', level: 85 },
+        { name: 'REST API & GraphQL', level: 87 },
+      ],
+    },
+    achievements: {
+      title: 'Achievements',
+      description: 'Numbers that reflect my commitment and ability to deliver results.',
+      stats: [
+        { number: '50+', label: 'Projects completed', icon: '📊' },
+        { number: '35+', label: 'Satisfied clients', icon: '😊' },
+        { number: '5+', label: 'Years of experience', icon: '⭐' },
+        { number: '+28%', label: 'Average conversion', icon: '📈' },
+      ],
+    },
+    certifications: {
+      title: 'Certifications & Training',
+      description: 'Continuous learning and professional certifications.',
+      items: [
+        { title: 'React Developer Certified', issuer: 'Meta', year: '2023' },
+        { title: 'Full Stack Web Development', issuer: 'Udemy', year: '2022' },
+        { title: 'UI/UX Design Masterclass', issuer: 'Interaction Design', year: '2022' },
+        { title: 'Django Advanced', issuer: 'Real Python', year: '2021' },
+      ],
+    },
+    techStack: {
+      title: 'Tech Stack',
+      description: 'The technologies I use to build modern and scalable solutions.',
+      categories: [
+        {
+          name: 'Frontend',
+          techs: ['React', 'TypeScript', 'Tailwind CSS', 'Vite', 'Jest'],
+        },
+        {
+          name: 'Backend',
+          techs: ['Django', 'Python', 'PostgreSQL', 'REST API', 'GraphQL'],
+        },
+        {
+          name: 'Design & Tools',
+          techs: ['Figma', 'Photoshop', 'Canva', 'Git', 'GitHub'],
+        },
+        {
+          name: 'DevOps & Cloud',
+          techs: ['Docker', 'AWS', 'CI/CD', 'Linux', 'Nginx'],
+        },
+      ],
+    },
+    cta: {
+      title: 'Ready to launch your project?',
+      description: 'Transform your ideas into reality. Contact me today for a free initial consultation and discover how I can accelerate your growth.',
+      button: 'Let\'s get started together',
     },
     contact: {
       title: 'Services & Contact',
