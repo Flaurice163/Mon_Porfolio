@@ -17,7 +17,7 @@ const contactMethods = [
   {
     id: 2,
     key: 'WhatsApp',
-    detail: "+261 34 346 1787",
+    detail: "+261 34 34 617 87",
     href: "https://wa.me/261343461787?text=Bonjour%2C%20je%20souhaite%20discuter%20d%27un%20projet%20web",
     icon: <Phone className="w-8 h-8 text-warning" />,
   },
@@ -42,7 +42,7 @@ const Contact = ({ language }: ContactProps) => {
           <ul className="grid gap-4">
             {contactMethods.map((method, index) => (
               <li key={method.id} className="flex items-center gap-4 bg-slate-900/80 p-4 rounded-2xl border border-slate-800">
-                <div className="p-3 bg-warning/10 rounded-2xl">{method.icon}</div>
+                <div className="p-3 bg-warning/10 rounded-2xl bg-gradient-to-br from-[#1A1A2E] via-[#1A1A2E] to-warning">{method.icon}</div>
                 <div>
                   <p className="font-semibold text-white">{contactCopy.methods[index]}</p>
                   <a href={method.href} className="text-sm text-warning hover:underline">

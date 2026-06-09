@@ -53,7 +53,7 @@ const Home = ({ language }: HomeProps) => {
           </ul>
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
-            <a href="https://wa.me/261343461787?text=Bonjour%2C%20je%20souhaite%20discuter%20d%27un%20projet%20web" target="_blank" rel="noopener noreferrer" className="btn btn-warning gap-2 text-white">
+            <a href="https://wa.me/261343461787?text=Bonjour%2C%20je%20souhaite%20discuter%20d%27un%20projet%20web" target="_blank" rel="noopener noreferrer" className="btn btn-warning gap-2 text-black">
               <Mail className="w-5 h-5" />
               {hero.contact}
             </a>

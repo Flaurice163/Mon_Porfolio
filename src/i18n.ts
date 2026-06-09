@@ -114,21 +114,21 @@ export const copy = {
           name: 'Découverte',
           subtitle: 'Idéal pour les premiers projets',
           badge: 'Starter',
-          price: '350K Ar',
+          price: '450K Ar',
           features: ['Landing page personnalisée', 'Design responsive', 'Mise en ligne rapide'],
         },
         {
           name: 'Croissance',
           subtitle: 'Pour les sites business complets',
           badge: 'Pro',
-          price: '500K Ar',
+          price: '700K Ar',
           features: ['Site multi-pages', 'Intégration formulaire', 'Optimisation SEO de base'],
         },
         {
           name: 'Premium',
           subtitle: 'Solution sur mesure haute performance',
           badge: 'Top',
-          price: 'À partir de 700K Ar',
+          price: 'À partir de 900K Ar',
           features: ['Application web complète', 'Branding et design avancé', 'Support et maintenance'],
         },
       ],
@@ -198,7 +198,7 @@ export const copy = {
         },
         {
           name: 'Backend',
-          techs: ['Django', 'Python', 'PostgreSQL', 'REST API', 'MySQL'],
+          techs: ['Django', 'Python','Php', 'PostgreSQL', 'REST API', 'MySQL'],
         },
         {
           name: 'Design & Outils',
@@ -341,21 +341,21 @@ export const copy = {
           name: 'Discovery',
           subtitle: 'Perfect for first projects',
           badge: 'Starter',
-          price: '350K Ar',
+          price: '450K Ar',
           features: ['Custom landing page', 'Responsive design', 'Fast launch'],
         },
         {
           name: 'Growth',
           subtitle: 'For complete business sites',
           badge: 'Pro',
-          price: '500K Ar',
+          price: '700K Ar',
           features: ['Multi-page website', 'Form integration', 'Basic SEO optimization'],
         },
         {
           name: 'Premium',
           subtitle: 'High-performance custom solution',
           badge: 'Top',
-          price: 'From 700K Ar',
+          price: 'From 900K Ar',
           features: ['Complete web application', 'Advanced branding and design', 'Support and maintenance'],
         },
       ],
@@ -421,11 +421,11 @@ export const copy = {
       categories: [
         {
           name: 'Frontend',
-          techs: ['React', 'TypeScript', 'Tailwind CSS', 'Vite', 'Jest'],
+          techs: ['React', 'TypeScript', 'Tailwind CSS', 'Vite', 'JavaScript'],
         },
         {
           name: 'Backend',
-          techs: ['Django', 'Python', 'PostgreSQL', 'REST API', 'GraphQL'],
+          techs: ['Django', 'Python', 'Php', 'PostgreSQL', 'REST API', 'MySQL'],
         },
         {
           name: 'Design & Tools',

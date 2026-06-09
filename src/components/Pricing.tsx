@@ -29,7 +29,7 @@ const Pricing = ({ language }: PricingProps) => {
                 <li key={feature}>• {feature}</li>
               ))}
             </ul>
-            <a href="#Contact" className="btn btn-warning btn-sm w-full text-white">{pricing.cta}</a>
+            <a href="#Contact" className="btn btn-warning btn-sm w-full text-black">{pricing.cta}</a>
           </div>
         ))}
       </div>

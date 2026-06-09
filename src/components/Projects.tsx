@@ -19,7 +19,7 @@ const projectData = {
       id: 1,
       title: "Projet de Gestion Financière",
       description: "Application de gestion financière permettant de créer, modifier et visualiser des ratios financiers avec des données des dernières années.",
-      technologies: ['PHP', 'HTML', 'CSS'],
+      technologies: ['PHP','MySQL', 'HTML', 'CSS'],
       demoLink: '#',
       repoLink: '#',
       image: img1,
@@ -66,7 +66,7 @@ const projectData = {
       id: 1,
       title: "Financial Management Project",
       description: "A financial management web app for creating, editing and visualizing financial ratios with historical data.",
-      technologies: ['PHP', 'HTML', 'CSS'],
+      technologies: ['PHP','MySQL', 'HTML', 'CSS'],
       demoLink: '#',
       repoLink: '#',
       image: img1,
@@ -127,7 +127,7 @@ const Projects = ({ language }: ProjectsProps) => {
             </div>
             <div className="flex flex-wrap gap-2 my-3">
               {project.technologies.map((tech) => (
-                <span key={tech} className="badge badge-warning badge-sm">{tech}</span>
+                <span key={tech} className="px-2.5 py-1.5 bg-slate-800/60 text-slate-300 text-sm rounded-lg border border-slate-700 hover:border-warning hover:text-warning transition">{tech}</span>
               ))}
             </div>
             <div className="flex flex-wrap gap-2">
