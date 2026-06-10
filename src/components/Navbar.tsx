@@ -42,7 +42,7 @@ const Navbar = ({ language, onLanguageChange }: NavbarProps) => {
         </ul>
       </div>
 
-      <div className="ml-20 md:hidden">
+      <div className="ml-auto md:hidden">
          <button
               className="btn btn-xs btn-outline w-full text-warning"
               onClick={() => onLanguageChange(language === 'fr' ? 'en' : 'fr')}
