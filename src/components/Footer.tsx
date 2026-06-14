@@ -31,7 +31,7 @@ const Footer = () => {
                bg-gradient-to-br from-[#1A1A2E] via-[#1A1A2E] to-[#FF6B35]">
                 <Github className="w-5 h-5" />
               </a>
-                <a href="https://wa.me/261343461787?text=Bonjour%2C%20je%20souhaite%20discuter%20d%27un%20projet%20web" target="_blank" rel="noopener noreferrer" className="flex h-11 w-11 items-center justify-center rounded-full border border-slate-800 bg-slate-900 text-slate-200 transition hover:border-warning hover:text-white
+                <a href="https://www.linkedin.com/in/fan-flaurice-730797363/" target="_blank" rel="noopener noreferrer" className="flex h-11 w-11 items-center justify-center rounded-full border border-slate-800 bg-slate-900 text-slate-200 transition hover:border-warning hover:text-white
                bg-gradient-to-br from-[#1A1A2E] via-[#1A1A2E] to-[#FF6B35]">
                 <Linkedin className="w-5 h-5" />
               </a>
