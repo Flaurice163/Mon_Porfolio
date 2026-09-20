@@ -52,12 +52,12 @@ const experiences = [
   },
   {
     id: 3,
-    role: "Développeur application web",
-    company: "Bookin'Pro",
-    periode: "Mars 2025 - Septembre 2025",
+    role: "Développeur siteweb",
+    company: "BeyrouthResto de Paris",
+    periode: "Mars 2026 - Juillet 2026",
     description: [
-      "Développement d'une application de services web.",
-      "Intégration de notifications WhatsApp et d'automatisations métier.",
+      "Développement d'une siteweb de Resto Beyrouth de Paris.",
+      "Intégration de notifications et de possibilite de commander sur WhatsApp.",
     ],
     image: comp2,
   },

@@ -44,8 +44,8 @@ const projectData = {
     },
     {
       id: 4,
-      title: "Gestion des rendez-vous",
-      description: "Application web de gestion de projets avec calendrier, tâches et suivi des rendez-vous.",
+      title: "BeyrouthResto de Paris",
+      description: "Un siteweb elegant et moderne de RestoBeyrouth de Paris.",
       technologies: ['React', 'Django', 'Tailwind CSS'],
       demoLink: '#',
       repoLink: '#',

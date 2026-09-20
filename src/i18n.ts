@@ -19,7 +19,7 @@ export const copy = {
     },
     hero: {
       tag: 'Fullstack & Design',
-      title: ['Bonjour,', 'je suis', 'FFlaur'],
+      title: ['Bonjour,', ' je suis ', 'FFlaur'],
       description: 'Je conçois des sites web modernes, des applications fullstack et des visuels marketing qui renforcent l’image de marque et l’engagement client.',
       bullets: [
         'Construction d’interfaces performantes et responsive.',
@@ -182,10 +182,10 @@ export const copy = {
       title: 'Certifications & Formation',
       description: 'Formations continues et certifications professionnelles.',
       items: [
-        { title: 'React Developer Certified', issuer: 'Meta', year: '2023' },
-        { title: 'Full Stack Web Development', issuer: 'Udemy', year: '2022' },
-        { title: 'UI/UX Design Masterclass', issuer: 'Interaction Design', year: '2022' },
-        { title: 'Django Advanced', issuer: 'Real Python', year: '2021' },
+        { title: 'React Developer Certified', issuer: 'Orange Digital Center', year: '2026' },
+        { title: 'Full Stack Web Development', issuer: 'Udemy', year: '2023' },
+        { title: 'UI/UX Design Masterclass', issuer: 'Interaction Design', year: '2023' },
+        { title: 'Django Advanced', issuer: 'Real Python', year: '2024' },
       ],
     },
     techStack: {
