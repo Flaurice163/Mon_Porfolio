@@ -399,8 +399,8 @@ export const copy = {
       title: 'Achievements',
       description: 'Numbers that reflect my commitment and ability to deliver results.',
       stats: [
-        { number: '15+', label: 'Projects completed', icon: '📊' },
-        { number: '13+', label: 'Satisfied clients', icon: '😊' },
+        { number: '10+', label: 'Projects completed', icon: '📊' },
+        { number: '8+', label: 'Satisfied clients', icon: '😊' },
         { number: '3+', label: 'Years of experience', icon: '⭐' },
         { number: '+28%', label: 'Average conversion', icon: '📈' },
       ],
