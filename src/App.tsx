@@ -11,7 +11,6 @@ import FAQ from "./components/FAQ.tsx";
 import Footer from "./components/Footer.tsx";
 import Home from "./components/Home.tsx";
 import Navbar from "./components/Navbar.tsx";
-import Pricing from "./components/Pricing.tsx";
 import Process from "./components/Process.tsx";
 import Projects from "./components/Projects.tsx";
 import Services from "./components/Services.tsx";
@@ -42,7 +41,6 @@ function App() {
         <Process language={language} />
         <CaseStudies language={language} />
         <Achievements language={language} />
-        <Pricing language={language} />
         <Testimonials language={language} />
         <Certifications language={language} />
         <Clients language={language} />

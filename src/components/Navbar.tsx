@@ -39,7 +39,6 @@ const Navbar = ({ language, onLanguageChange }: NavbarProps) => {
             <li><a href="#Contact" className="text-sm text-white hover:text-warning">{labels.contact}</a></li>
             <li><a href="#Process" className="text-sm text-white hover:text-warning">{labels.process}</a></li>
             <li><a href="#CaseStudies" className="text-sm text-white hover:text-warning">{labels.caseStudies}</a></li>
-            <li><a href="#Pricing" className="text-sm text-white hover:text-warning">{labels.pricing}</a></li>
             <li><a href="#Testimonials" className="text-sm text-white hover:text-warning">{labels.testimonials}</a></li>
             <li><a href="#Experiences" className="text-sm text-white hover:text-warning">{labels.experiences}</a></li>
             <li><a href="#Projects" className="text-sm text-white hover:text-warning">{labels.projects}</a></li>
@@ -53,7 +52,6 @@ const Navbar = ({ language, onLanguageChange }: NavbarProps) => {
         <a href="#Services" className="text-sm text-white hover:text-warning">{labels.services}</a>
         <a href="#About" className="text-sm text-white hover:text-warning">{labels.about}</a>
         <a href="#Clients" className="text-sm text-white hover:text-warning">{labels.clients}</a>
-        <a href="#Pricing" className="text-sm text-white hover:text-warning">{labels.pricing}</a>
         <a href="#Contact" className="text-sm text-white hover:text-warning">{labels.contact}</a>
 
         <div className="dropdown dropdown-hover">

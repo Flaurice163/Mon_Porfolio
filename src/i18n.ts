@@ -246,7 +246,7 @@ export const copy = {
     },
     hero: {
       tag: 'Fullstack & Design',
-      title: ['Hello,', 'I am', 'FFlaur'],
+      title: ['Hi!,', 'I am', 'FFlaur'],
       description: 'I build modern websites, fullstack applications and marketing visuals that strengthen brand image and customer engagement.',
       bullets: [
         'Create fast, responsive user interfaces.',

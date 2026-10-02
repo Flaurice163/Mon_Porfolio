@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="flex items-center gap-3">
               <CodeXmlIcon className="w-6 h-6 text-warning" />
               <div>
-                <p className="text-xl font-semibold text-white">FF<span className="text-warning">LAUR</span>DEV</p>
+                <p className="text-xl font-semibold text-white">FFlaurItz</p>
                 <p className="text-sm text-slate-500">Fullstack & Design</p>
               </div>
             </div>
@@ -72,7 +72,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-10 border-t border-slate-800 pt-6 text-center text-sm text-slate-300">
-          © {new Date().getFullYear()} FF<span className="text-warning">LAUR</span>DEV. Tous droits réservés.
+          © {new Date().getFullYear()} FFlaurItz. Tous droits réservés.
         </div>
       </div>
     </footer>
