@@ -180,12 +180,12 @@ export const copy = {
     },
     certifications: {
       title: 'Certifications & Formation',
-      description: 'Formations continues et certifications professionnelles.',
+      description: 'Mon parcours scolaire et mes formations professionnelles.',
       items: [
-        { title: 'React Developer Certified', issuer: 'Orange Digital Center', year: '2026' },
-        { title: 'Full Stack Web Development', issuer: 'Udemy', year: '2023' },
-        { title: 'UI/UX Design Masterclass', issuer: 'Interaction Design', year: '2023' },
-        { title: 'Django Advanced', issuer: 'Real Python', year: '2024' },
+        { title: 'Diplôme de Baccalauréat', issuer: 'Lycée Jacques Rabemananjara', year: '2020–2021' },
+        { title: 'Première année de Licence', issuer: 'Faculté des Sciences et Technologies (FST), Université de Toamasina', year: '2021–2022' },
+        { title: 'Diplôme de Licence en Informatique Académique', issuer: 'Faculté des Sciences et Technologies (FST), Université de Toamasina', year: '2023–2024' },
+        { title: 'Formation en cybersécurité', issuer: 'Orange Digital Center', year: 'Juin 2026' },
       ],
     },
     techStack: {
@@ -407,12 +407,12 @@ export const copy = {
     },
     certifications: {
       title: 'Certifications & Training',
-      description: 'Continuous learning and professional certifications.',
+      description: 'My academic background and professional training.',
       items: [
-        { title: 'React Developer Certified', issuer: 'Meta', year: '2023' },
-        { title: 'Full Stack Web Development', issuer: 'Udemy', year: '2022' },
-        { title: 'UI/UX Design Masterclass', issuer: 'Interaction Design', year: '2022' },
-        { title: 'Django Advanced', issuer: 'Real Python', year: '2021' },
+        { title: 'High School Diploma (Baccalauréat)', issuer: 'Lycée Jacques Rabemananjara', year: '2020–2021' },
+        { title: 'First Year of Bachelor’s Degree', issuer: 'Faculty of Science and Technology (FST), University of Toamasina', year: '2021–2022' },
+        { title: 'Bachelor’s Degree in Academic Computer Science', issuer: 'Faculty of Science and Technology (FST), University of Toamasina', year: '2023–2024' },
+        { title: 'Cybersecurity Training', issuer: 'Orange Digital Center', year: 'June 2026' },
       ],
     },
     techStack: {
