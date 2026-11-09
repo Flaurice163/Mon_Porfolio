@@ -3,7 +3,6 @@ import { copy } from "../i18n";
 import type { Language } from "../i18n";
 
 import img1 from '../assets/projects/img1.jpg';
-import img2 from '../assets/projects/img2.jpeg';
 import img3 from '../assets/projects/img3.jpeg';
 import img4 from '../assets/projects/img4.png';
 import img5 from '../assets/projects/img5.jpg';
@@ -17,28 +16,19 @@ const projectData = {
   fr: [
     {
       id: 1,
-      title: "Projet de Gestion Financière",
-      description: "Application de gestion financière permettant de créer, modifier et visualiser des ratios financiers avec des données des dernières années.",
-      technologies: ['PHP','MySQL', 'HTML', 'CSS'],
-      demoLink: '#',
+      title: "Agent Marketing IA",
+      description: "Générateur de stratégies marketing avec analyse de marché, laboratoire de contenu et planificateur de campagnes.",
+      technologies: ['IA', 'Marketing digital', 'Stratégie', 'Génération de contenu'],
+      demoLink: 'https://ia-agent-marketing.vercel.app/',
       repoLink: '#',
       image: img1,
     },
     {
-      id: 2,
-      title: "Gestionnaires des employés",
-      description: "Système de gestion des employés avec interface d'administration, développé en Django et stylisé avec Tailwind CSS.",
-      technologies: ['HTML', 'Django', 'Tailwind CSS', 'DaisyUI'],
-      demoLink: '#',
-      repoLink: '#',
-      image: img2,
-    },
-    {
       id: 3,
-      title: "Gestionnaire de dépenses",
-      description: "Application de suivi des dépenses mensuelles et annuelles avec gestion des transactions et récapitulatif visuel.",
-      technologies: ['React', 'JavaScript', 'Tailwind CSS'],
-      demoLink: '#',
+      title: "TanaStock",
+      description: "Application de gestion de boutique pour suivre les stocks, les ventes et les dépenses, avec un tableau de bord et des rapports détaillés.",
+      technologies: ['Gestion de stock', 'Gestion des ventes', 'Suivi financier', 'Rapports'],
+      demoLink: 'http://tanastock-fflauritz.expo.app/',
       repoLink: '#',
       image: img3,
     },
@@ -47,7 +37,7 @@ const projectData = {
       title: "BeyrouthResto de Paris",
       description: "Un siteweb elegant et moderne de RestoBeyrouth de Paris.",
       technologies: ['React', 'Django', 'Tailwind CSS'],
-      demoLink: '#',
+      demoLink: 'http://restobeyrouth.vercel.app/',
       repoLink: '#',
       image: img4,
     },
@@ -56,7 +46,7 @@ const projectData = {
       title: "BALISHOP Analakely",
       description: "Création de visuels publicitaires et supports marketing réalisés avec Canva et Photoshop.",
       technologies: ['Canva', 'Photoshop'],
-      demoLink: '#',
+      demoLink: 'https://www.facebook.com/profile.php?id=100087767242042',
       repoLink: '#',
       image: img5,
     },
@@ -64,37 +54,28 @@ const projectData = {
   en: [
     {
       id: 1,
-      title: "Financial Management Project",
-      description: "A financial management web app for creating, editing and visualizing financial ratios with historical data.",
-      technologies: ['PHP','MySQL', 'HTML', 'CSS'],
-      demoLink: '#',
+      title: "AI Marketing Agent",
+      description: "A marketing strategy generator featuring market analysis, a content lab, and a campaign planner.",
+      technologies: ['AI', 'Digital marketing', 'Strategy', 'Content generation'],
+      demoLink: 'https://ia-agent-marketing.vercel.app/',
       repoLink: '#',
       image: img1,
     },
     {
-      id: 2,
-      title: "Employee Management",
-      description: "Employee management system with admin interface, built in Django and styled with Tailwind CSS.",
-      technologies: ['HTML', 'Django', 'Tailwind CSS', 'DaisyUI'],
-      demoLink: '#',
-      repoLink: '#',
-      image: img2,
-    },
-    {
       id: 3,
-      title: "Expense Tracking",
-      description: "Monthly and yearly expense tracking app with transaction management and visual summaries.",
-      technologies: ['React', 'JavaScript', 'Tailwind CSS'],
-      demoLink: '#',
+      title: "TanaStock",
+      description: "A shop management application for tracking inventory, sales, and expenses, with a dashboard and detailed reports.",
+      technologies: ['Inventory management', 'Sales management', 'Financial tracking', 'Reports'],
+      demoLink: 'http://tanastock-fflauritz.expo.app/',
       repoLink: '#',
       image: img3,
     },
     {
       id: 4,
-      title: "Appointment Scheduler",
-      description: "Web app for project and appointment management with calendar and task tracking.",
+      title: "BeyrouthResto de Paris",
+      description: "A modern, elegant website showcasing the Beyrouth restaurant in Paris.",
       technologies: ['React', 'Django', 'Tailwind CSS'],
-      demoLink: '#',
+      demoLink: 'http://restobeyrouth.vercel.app/',
       repoLink: '#',
       image: img4,
     },
@@ -103,7 +84,7 @@ const projectData = {
       title: "BALISHOP Analakely",
       description: "Advertising visuals and marketing materials created with Canva and Photoshop.",
       technologies: ['Canva', 'Photoshop'],
-      demoLink: '#',
+      demoLink: 'https://www.facebook.com/profile.php?id=100087767242042',
       repoLink: '#',
       image: img5,
     },
@@ -152,4 +133,3 @@ const Projects = ({ language }: ProjectsProps) => {
 };
 
 export default Projects;
-

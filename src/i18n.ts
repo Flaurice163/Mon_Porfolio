@@ -148,10 +148,8 @@ export const copy = {
       description: 'Des collaborations avec des marques ambitieuses et des équipes motivées.',
       items: [
         { name: 'Archystore', description: 'Solution de gestion pour le retail et l’expérience utilisateur.' },
-        { name: 'Bold Agency', description: 'Accompagnement marketing et refonte de l’identité digitale.' },
         { name: 'BALISHOP', description: 'Création de visuels publicitaires et supports de communication.' },
-        { name: 'Startup Lab', description: 'Accompagnement produit pour une plateforme SaaS innovante.' },
-        { name: 'BrandLab', description: 'Positionnement et design de marque pour entreprises créatives.' },
+        { name: 'J32 Agence Marketing Digitale', description: 'Agence spécialisée en marketing digital et stratégie de communication.' },
       ],
     },
     skills: {
@@ -375,10 +373,8 @@ export const copy = {
       description: 'Collaborations with ambitious brands and motivated teams.',
       items: [
         { name: 'Archystore', description: 'Retail management solution and improved user experience.' },
-        { name: 'Bold Agency', description: 'Marketing support and digital identity redesign.' },
         { name: 'BALISHOP', description: 'Advertising visuals and communication assets creation.' },
-        { name: 'Startup Lab', description: 'Product support for an innovative SaaS platform.' },
-        { name: 'BrandLab', description: 'Brand positioning and design for creative businesses.' },
+        { name: 'J32 Digital Marketing Agency', description: 'An agency specializing in digital marketing and communication strategy.' },
       ],
     },
     skills: {

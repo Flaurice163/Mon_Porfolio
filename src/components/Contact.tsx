@@ -10,8 +10,8 @@ const contactMethods = [
   {
     id: 1,
     key: 'Email',
-    detail: "contact@fflaur.dev",
-    href: "mailto:contact@fflaur.dev",
+    detail: "j32agencemd@gmail.com",
+    href: "mailto:j32agencemd@gmail.com",
     icon: <Mail className="w-8 h-8 text-warning" />,
   },
   {

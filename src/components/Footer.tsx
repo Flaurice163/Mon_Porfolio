@@ -62,7 +62,7 @@ const Footer = () => {
           <div>
             <h3 className="text-sm uppercase tracking-[0.2em] text-warning mb-5">Contact</h3>
             <div className="space-y-3 text-sm text-slate-400">
-              <p>contact@fflaur.dev</p>
+              <a href="mailto:j32agencemd@gmail.com" className="hover:text-warning transition">j32agencemd@gmail.com</a>
               <a href="https://wa.me/261343461787?text=Bonjour%2C%20je%20souhaite%20discuter%20d%27un%20projet%20web" target="_blank" rel="noopener noreferrer" className="block hover:text-warning transition text-slate-400">
                 WhatsApp +261 34 34 617 87
               </a>
