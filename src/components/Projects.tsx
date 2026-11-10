@@ -6,13 +6,25 @@ import img1 from '../assets/projects/img1.jpg';
 import img3 from '../assets/projects/img3.jpeg';
 import img4 from '../assets/projects/img4.png';
 import img5 from '../assets/projects/img5.jpg';
+import promoVideo from '../assets/projects/FFLAURITZ-promo-v2.mp4';
 import { Github, Video } from "lucide-react";
 
 interface ProjectsProps {
   language: Language;
 }
 
-const projectData = {
+interface Project {
+  id: number;
+  title: string;
+  description: string;
+  technologies: string[];
+  demoLink: string;
+  repoLink: string;
+  image?: string;
+  video?: string;
+}
+
+const projectData: Record<Language, Project[]> = {
   fr: [
     {
       id: 1,
@@ -49,6 +61,15 @@ const projectData = {
       demoLink: 'https://www.facebook.com/profile.php?id=100087767242042',
       repoLink: '#',
       image: img5,
+    },
+    {
+      id: 6,
+      title: "Présentation de services — Motion design",
+      description: "Vidéo de présentation de mes services en développement web et mobile, création de flyers et motion design, déclinée dans des formats adaptés aux réseaux sociaux.",
+      technologies: ['Motion design', 'Développement web et mobile', 'Flyer', 'Réseaux sociaux'],
+      demoLink: '#',
+      repoLink: '#',
+      video: promoVideo,
     },
   ],
   en: [
@@ -88,6 +109,15 @@ const projectData = {
       repoLink: '#',
       image: img5,
     },
+    {
+      id: 6,
+      title: "Service Presentation — Motion Design",
+      description: "A promotional video presenting my web and mobile development, flyer design, and motion design services, adapted to social media formats.",
+      technologies: ['Motion design', 'Web and mobile development', 'Flyer design', 'Social media'],
+      demoLink: '#',
+      repoLink: '#',
+      video: promoVideo,
+    },
   ],
 };
 
@@ -101,7 +131,20 @@ const Projects = ({ language }: ProjectsProps) => {
       <div className="grid gap-4 md:grid-cols-3">
         {projects.map((project) => (
           <div key={project.id} className="bg-slate-950/95 p-5 h-fit rounded-xl shadow-lg border border-slate-800 transition duration-300 hover:-translate-y-1 hover:shadow-2xl">
-            <img src={project.image} alt={project.title} className="w-full rounded-xl h-84 object-cover" />
+            {project.video ? (
+              <video
+                src={project.video}
+                autoPlay
+                controls
+                muted
+                preload="metadata"
+                playsInline
+                aria-label={project.title}
+                className="w-full rounded-xl aspect-[9/16] bg-black object-contain"
+              />
+            ) : (
+              <img src={project.image} alt={project.title} className="w-full rounded-xl h-84 object-cover" />
+            )}
             <div>
               <h1 className="my-2 font-bold text-xl text-white">{project.title}</h1>
               <p className="text-sm text-slate-300">{project.description}</p>
